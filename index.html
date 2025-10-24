@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="fr_FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shukdeb Bhowmik - BTS SIO SLAM | Développeur Web</title>
+    <meta name="description" content="Shukdeb Bhowmik - Étudiant en BTS SIO option SLAM. Développeur web passionné créant des applications modernes et performantes.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+
+<body>
+
+    <!--------- Navigation ------------------>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Shukdeb</p>
+            </div>
+            <div class="nav-menu" id="myNavmenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Accueil</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#apropos" class="nav-link">À propos</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#formation" class="nav-link">Formation</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#parcours" class="nav-link">Parcours</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#competences" class="nav-link">Compétences</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projets" class="nav-link">Projets</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#veille" class="nav-link">Veille</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!------------ Mode Dark ------------------>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!-------- Main Content -------->
+        <main class="wrapper">
+            <!-------- Hero Section -------->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Étudiant en BTS SIO</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>Passionné par le développement web et les nouvelles technologies, je me spécialise dans la création d'applications modernes. Actuellement en BTS SIO option SLAM, j'allie formation théorique et projets pratiques pour maîtriser les technologies du web.</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn"><a href="#contact">Me contacter</a></button>
+                        <button class="btn cv-btn"><a href="cv/Shukdeb-BHOWMIK-STAGE_CV.pdf" target="_blank">Voir mon CV <i class="uil uil-file"></i></a></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://github.com/Bhowmikshukdeb" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/shukdeb-bhowmik-b57899201/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></div>
+                        <div class="icon"><a href="mailto:shukdebbhowmik14@gmail.com"><i class="fa-solid fa-envelope"></i></a></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="image/shukdeb.png" alt="Shukdeb Bhowmik - Étudiant BTS SIO">
+                    </div>
+                </div>
+            </section>
+
+            <!-------- À Propos Section -------->
+            <section class="section" id="apropos">
+                <div class="top-header">
+                    <h1>À Propos</h1>
+                    <span>Qui je suis et ce qui me passionne</span>
+                </div>
+                <div class="about-container">
+                    <div class="about-content">
+                        <div class="about-text">
+                            <h2>Shukdeb Bhowmik</h2>
+                            <h3>Étudiant en BTS SIO Option SLAM</h3>
+                            <p>Passionné par l'informatique depuis mon plus jeune âge, j'ai décidé de me spécialiser dans le développement web. Mon parcours international et ma formation en BTS SIO me permettent d'aborder les projets avec une vision à la fois technique et créative.</p>
+                            
+                            <div class="about-details">
+                                <div class="detail-item">
+                                    <i class="uil uil-map-marker"></i>
+                                    <div>
+                                        <strong>Localisation</strong>
+                                        <p>Saint-Denis, Île-de-France</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="uil uil-graduation-cap"></i>
+                                    <div>
+                                        <strong>Formation</strong>
+                                        <p>BTS SIO - Lycée Louis Armand</p>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="uil uil-heart"></i>
+                                    <div>
+                                        <strong>Passions</strong>
+                                        <p>Développement web, nouvelles technologies, photographie</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image">
+                            <img src="image/shukdeb.png" alt="Shukdeb Bhowmik">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Formation BTS SIO -------->
+            <section class="section" id="formation">
+                <div class="top-header">
+                    <h1>Le BTS SIO</h1>
+                    <span>Brevet de Technicien Supérieur - Services Informatiques aux Organisations</span>
+                </div>
+                <div class="formation-container">
+                    <div class="formation-intro">
+                        <h2>Qu'est-ce que le BTS SIO ?</h2>
+                        <p>Le Brevet de Technicien Supérieur - Services Informatiques aux Organisations (BTS SIO) s'adresse à ceux qui souhaitent se former aux métiers d'administrateurs réseau ou de développeur en deux ans. Par la suite, il est possible de continuer ses études dans le domaine de l'informatique ou d'intégrer directement le marché du travail.</p>
+                    </div>
+
+                    <div class="options-container">
+                        <div class="option-card">
+                            <div class="option-header">
+                                <i class="uil uil-server-network"></i>
+                                <h3>Option SISR</h3>
+                            </div>
+                            <div class="option-content">
+                                <p><strong>Solutions d'Infrastructures, Systèmes et Réseaux</strong> - Cette option forme des professionnels des réseaux et équipements informatiques (installation, maintenance, sécurité).</p>
+                                <div class="debouches">
+                                    <h4>Débouchés :</h4>
+                                    <ul>
+                                        <li>Administrateur systèmes et réseaux</li>
+                                        <li>Technicien d'infrastructures</li>
+                                        <li>Support systèmes et réseaux</li>
+                                        <li>Pilote d'exploitation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="option-card slam-option">
+                            <div class="option-header">
+                                <i class="uil uil-code"></i>
+                                <h3>Option SLAM</h3>
+                                <span class="option-badge">Mon choix</span>
+                            </div>
+                            <div class="option-content">
+                                <p><strong>Solutions Logicielles et Applications Métiers</strong> - Cette option forme des spécialistes des logiciels (rédaction de cahier des charges, développement, intégration).</p>
+                                <div class="debouches">
+                                    <h4>Débouchés :</h4>
+                                    <ul>
+                                        <li>Développeur d'applications informatiques</li>
+                                        <li>Analyste programmeur</li>
+                                        <li>Développeur web</li>
+                                        <li>Technicien d'études informatiques</li>
+                                        <li>Responsable des services applicatifs</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Parcours Section -------->
+            <section class="section" id="parcours">
+                <div class="top-header">
+                    <h1>Mon Parcours</h1>
+                    <span>Un cheminement unique alliant formation technique et expérience internationale</span>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <div class="timeline-content">
+                            <h3>BTS SIO Option SLAM</h3>
+                            <p class="timeline-location">Lycée Louis Armand / Sorbonne Université</p>
+                            <p>Formation en Solutions Logicielles et Applications Métiers : développement web, conception d'applications, bases de données, gestion de projets informatiques.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2024</div>
+                        <div class="timeline-content">
+                            <h3>DU RESPE - Retour aux Études Supérieures</h3>
+                            <p class="timeline-location">Sorbonne Université</p>
+                            <p>Formation intensive en français (niveau B2) et remise à niveau en sciences (mathématiques, physique, informatique) pour une intégration réussie dans le système universitaire français.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022-2023</div>
+                        <div class="timeline-content">
+                            <h3>Diplôme Universitaire FLE</h3>
+                            <p class="timeline-location">Université Paris VIII</p>
+                            <p>Programme d'intégration pour étudiants internationaux : français langue étrangère, méthodologie universitaire, accompagnement à l'orientation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Licence 2 en Informatique</h3>
+                            <p class="timeline-location">Daffodil International University, Bangladesh</p>
+                            <p>Formation en ingénierie informatique avec initiation à la programmation, algorithmie et bases de données.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">Expériences</div>
+                        <div class="timeline-content">
+                            <h3>Engagements & Bénévolat</h3>
+                            <p class="timeline-location">OFIORA & Computer Programming Club</p>
+                            <p>Animation d'ateliers de programmation, accompagnement d'étudiants dans leurs démarches universitaires, développement du sens du service et du travail d'équipe.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Compétences Section -------->
+            <section class="section" id="competences">
+                <div class="top-header">
+                    <h1>Mes Compétences</h1>
+                    <span>Des technologies modernes pour créer des solutions digitales efficaces</span>
+                </div>
+                <div class="competences-container">
+                    <div class="competence-category">
+                        <div class="category-icon">
+                            <i class="uil uil-desktop"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                        <div class="competence-tags">
+                            <span class="competence-tag">HTML5</span>
+                            <span class="competence-tag">CSS3</span>
+                            <span class="competence-tag">JavaScript</span>
+                            <span class="competence-tag">Responsive Design</span>
+                        </div>
+                    </div>
+
+                    <div class="competence-category">
+                        <div class="category-icon">
+                            <i class="uil uil-server"></i>
+                        </div>
+                        <h3>Backend</h3>
+                        <div class="competence-tags">
+                            <span class="competence-tag">PHP</span>
+                            <span class="competence-tag">Python</span>
+                            <span class="competence-tag">SQL</span>
+                            <span class="competence-tag">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="competence-category">
+                        <div class="category-icon">
+                            <!-- <i class="uil uil-tools"></i> -->
+                            <i class="fa-solid fa-toolbox"></i>
+                        </div>
+                        <h3>Outils & Méthodes</h3>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Git & GitHub</span>
+                            <span class="competence-tag">VirtualBox</span>
+                            <span class="competence-tag">Méthodes Agile</span>
+                            <span class="competence-tag">VS Code</span>
+                        </div>
+                    </div>
+
+                    <div class="competence-category">
+                        <div class="category-icon">
+                            <i class="uil uil-palette"></i>
+                        </div>
+                        <h3>Design</h3>
+                        <div class="competence-tags">
+                            <span class="competence-tag">Figma</span>
+                            <span class="competence-tag">Photoshop</span>
+                            <span class="competence-tag">Canva</span>
+                            <span class="competence-tag">UI/UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Projets Section -------->
+            <section class="section" id="projets">
+                <div class="top-header">
+                    <h1>Mes Projets</h1>
+                    <span>Des réalisations concrètes qui illustrent mon apprentissage et ma passion</span>
+                </div>
+                <div class="projects-showcase">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="uil uil-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Projet Personnel</span>
+                            <h3>Amazon Clone</h3>
+                            <p>Reproduction fidèle de la page d'accueil Amazon pour maîtriser les concepts avancés de CSS : Flexbox, Grid, design responsive et animations.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Bhowmikshukdeb/amazone_clone_project-" target="_blank" class="project-link">
+                                    <i class="uil uil-github"></i> Code Source
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="uil uil-briefcase-alt"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">Projet Académique</span>
+                            <h3>CV Web Dynamique</h3>
+                            <p>Développement d'un portfolio interactif mettant en pratique les concepts de développement frontend et d'expérience utilisateur.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Bhowmikshukdeb/Resume-de-fran-ais-" class="project-link">
+                                    <i class="uil uil-eye"></i> En Ligne
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <div class="project-placeholder">
+                                <i class="uil uil-rocket"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-badge">En Cours</span>
+                            <h3>Application de Gestion</h3>
+                            <p>Conception d'une application web fullstack avec authentification, base de données et interface administrateur dans le cadre de mon BTS SIO.</p>
+                            <div class="project-tech">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link coming-soon">
+                                    <i class="uil uil-clock"></i> Bientôt Disponible
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Veille Technologique -------->
+            <section class="section" id="veille">
+                <div class="top-header">
+                    <h1>Veille Technologique</h1>
+                    <span>L'intelligence artificielle au service du développement web</span>
+                </div>
+                <div class="veille-container">
+                    <div class="veille-content">
+                        <div class="veille-section">
+                            <h2>📌 Sujet de Veille</h2>
+                            <p><strong>L'intelligence artificielle dans le développement web : GitHub Copilot et ChatGPT</strong></p>
+                        </div>
+
+                        <div class="veille-section">
+                            <h2>🎯 Objectif & Problématique</h2>
+                            <p><strong>Objectif :</strong> Comprendre comment l'IA transforme le développement web en facilitant la création de code, la correction d'erreurs et la documentation des projets.</p>
+                            <p><strong>Problématique :</strong> Comment l'IA peut-elle améliorer la productivité et la qualité du code dans le développement d'applications web ?</p>
+                        </div>
+
+                        <div class="veille-section">
+                            <h2>🔍 Méthodologie de Veille</h2>
+                            <div class="sources-grid">
+                                <div class="source-item">
+                                    <i class="uil uil-globe"></i>
+                                    <span>Sites spécialisés</span>
+                                </div>
+                                <div class="source-item">
+                                    <i class="uil uil-youtube"></i>
+                                    <span>Vidéos techniques</span>
+                                </div>
+                                <div class="source-item">
+                                    <i class="uil uil-users-alt"></i>
+                                    <span>Communautés en ligne</span>
+                                </div>
+                                <div class="source-item">
+                                    <i class="uil uil-book"></i>
+                                    <span>Documentation officielle</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="veille-section">
+                            <h2>💡 Résultats & Analyse</h2>
+                            <div class="results-grid">
+                                <div class="result-item positive">
+                                    <h4>Avantages</h4>
+                                    <ul>
+                                        <li>Gain de temps sur les tâches répétitives</li>
+                                        <li>Découverte de nouvelles solutions</li>
+                                        <li>Meilleure documentation</li>
+                                        <li>Assistance en temps réel</li>
+                                    </ul>
+                                </div>
+                                <div class="result-item caution">
+                                    <h4>Limites</h4>
+                                    <ul>
+                                        <li>Code parfois non optimisé</li>
+                                        <li>Risque d'erreurs</li>
+                                        <li>Nécessite une vérification humaine</li>
+                                        <li>Dépendance technologique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="veille-section">
+                            <h2>🚀 Application Pratique</h2>
+                            <p>Dans le cadre de mes projets BTS SIO, j'utilise ces outils pour :</p>
+                            <div class="applications">
+                                <div class="app-item">
+                                    <i class="uil uil-html5"></i>
+                                    <span>Générer du code HTML/CSS</span>
+                                </div>
+                                <div class="app-item">
+                                    <i class="uil uil-java-script"></i>
+                                    <span>Corriger des erreurs JavaScript</span>
+                                </div>
+                                <div class="app-item">
+                                    <i class="uil uil-document-layout-left"></i>
+                                    <span>Documenter mes projets</span>
+                                </div>
+                                <div class="app-item">
+                                    <i class="uil uil-lightbulb"></i>
+                                    <span>Trouver de nouvelles solutions</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="veille-conclusion">
+                            <h2>✅ Conclusion</h2>
+                            <p>L'IA transforme le développement web en apportant gain de temps, assistance et innovation. Pour un développeur SLAM, maîtriser ces outils est un atout majeur pour travailler efficacement sur des projets complexes. La vigilance reste nécessaire : il faut comprendre le code généré et ne pas se reposer uniquement sur l'IA.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-------- Contact Section -------->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Travaillons ensemble</h1>
+                    <span>Discutons de vos projets ou échangeons autour du développement web</span>
+                </div>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Prendre contact</h2>
+                        <div class="contact-item">
+                            <i class="uil uil-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>shukdebbhowmik14@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="uil uil-phone"></i>
+                            <div>
+                                <strong>Téléphone</strong>
+                                <p>+33 6 44 05 26 63</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="uil uil-map-marker"></i>
+                            <div>
+                                <strong>Localisation</strong>
+                                <p>Saint-Denis, Île-de-France</p>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <p>Suivez-moi sur :</p>
+                            <div class="social-links">
+                                <a href="https://github.com/Bhowmikshukdeb" target="_blank" class="social-link">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/shukdeb-bhowmik-b57899201/" target="_blank" class="social-link">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" action="https://formsubmit.co/shukdebbhowmik14@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Nouveau message depuis portfolio">
+                        <div class="form-group">
+                            <input type="text" name="name" class="input-field" placeholder="Votre nom" required>
+                            <input type="email" name="email" class="input-field" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="input-field" placeholder="Sujet du message" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Envoyer le message <i class="uil uil-message"></i></button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-------- Footer --------->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Shukdeb Bhowmik</h3>
+                    <p>Étudiant en BTS SIO option SLAM<br>Passionné par le développement web et les nouvelles technologies</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Accueil</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#formation">BTS SIO</a>
+                    <a href="#parcours">Parcours</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#veille">Veille</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>shukdebbhowmik14@gmail.com</p>
+                    <p>+33 6 44 05 26 63</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Bhowmikshukdeb" target="_blank"><i class="uil uil-github-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/shukdeb-bhowmik-b57899201/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Shukdeb Bhowmik . Tous droits réservés.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr_FR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veille_technologie</title>
+    <title>Veille Technologique - Shukdeb Bhowmik</title>
+    <meta name="description" content="Veille technologique de Shukdeb Bhowmik - L'intelligence artificielle au service du développement web.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
@@ -19,126 +20,117 @@
             <div class="nav-menu" id="myNavmenu">
                 <ul class="nav_menu_list">
                     <li class="nav_list">
-                        <a href="index.html" class="nav-link active-link">Accueil</a>
+                        <a href="index.html" class="nav-link">Accueil</a>
                     </li>
                     <li class="nav_list">
-                        <a href="veille.html" class="nav-link">Veille</a>
+                        <a href="veille.html" class="nav-link active-link">Veille</a>
                     </li>
                 </ul>
             </div>
+            
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
         </nav>
         
+        <main class="wrapper" style="padding-top: 100px;">
             <section class="section" id="veille">
                 <div class="top-header">
-                    <h1>Veille Technologique</h1>
+                    <h1>Ma Veille Technologique</h1>
                     <span>L'intelligence artificielle au service du développement web</span>
                 </div>
+                
                 <div class="veille-container">
-                    <div class="veille-content">
-                        <div class="veille-section">
-                            <h2>📌 Sujet de Veille</h2>
-                            <p><strong>L'intelligence artificielle dans le développement web : GitHub Copilot et
-                                    ChatGPT</strong>
-                            </p>
+                    
+                    <div class="veille-header-grid">
+                        <div class="veille-info-card">
+                            <div class="icon-wrapper"><i class="uil uil-crosshair"></i></div>
+                            <h3>Pourquoi ce sujet ?</h3>
+                            <p>En tant que futur développeur, j'ai choisi d'étudier l'impact réel de l'IA (comme GitHub Copilot ou ChatGPT) sur notre métier. Mon objectif n'est pas de savoir si l'IA va nous remplacer, mais plutôt de comprendre comment elle peut nous aider à produire un code de meilleure qualité, plus rapidement.</p>
                         </div>
-
-                        <div class="veille-section">
-                            <h2>🎯 Objectif & Problématique</h2>
-                            <p><strong>Objectif :</strong> Comprendre comment l'IA transforme le développement web en
-                                facilitant la
-                                création de code, la correction d'erreurs et la documentation des projets.</p>
-                            <p><strong>Problématique :</strong> Comment l'IA peut-elle améliorer la productivité et la
-                                qualité du
-                                code dans le développement d'applications web ?</p>
-                        </div>
-
-                        <div class="veille-section">
-                            <h2>🔍 Méthodologie de Veille</h2>
-                            <div class="sources-grid">
-                                <div class="source-item">
-                                    <i class="uil uil-globe"></i>
-                                    <span>Sites spécialisés</span>
-                                </div>
-                                <div class="source-item">
-                                    <i class="uil uil-youtube"></i>
-                                    <span>Vidéos techniques</span>
-                                </div>
-                                <div class="source-item">
-                                    <i class="uil uil-users-alt"></i>
-                                    <span>Communautés en ligne</span>
-                                </div>
-                                <div class="source-item">
-                                    <i class="uil uil-book"></i>
-                                    <span>Documentation officielle</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="veille-section">
-                            <h2>💡 Résultats & Analyse</h2>
-                            <div class="results-grid">
-                                <div class="result-item positive">
-                                    <h4>Avantages</h4>
-                                    <ul>
-                                        <li>Gain de temps sur les tâches répétitives</li>
-                                        <li>Découverte de nouvelles solutions</li>
-                                        <li>Meilleure documentation</li>
-                                        <li>Assistance en temps réel</li>
-                                    </ul>
-                                </div>
-                                <div class="result-item caution">
-                                    <h4>Limites</h4>
-                                    <ul>
-                                        <li>Code parfois non optimisé</li>
-                                        <li>Risque d'erreurs</li>
-                                        <li>Nécessite une vérification humaine</li>
-                                        <li>Dépendance technologique</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="veille-section">
-                            <h2>🚀 Application Pratique</h2>
-                            <p>Dans le cadre de mes projets BTS SIO, j'utilise ces outils pour :</p>
-                            <div class="applications">
-                                <div class="app-item">
-                                    <i class="uil uil-html5"></i>
-                                    <span>Générer du code HTML/CSS</span>
-                                </div>
-                                <div class="app-item">
-                                    <i class="uil uil-java-script"></i>
-                                    <span>Corriger des erreurs JavaScript</span>
-                                </div>
-                                <div class="app-item">
-                                    <i class="uil uil-document-layout-left"></i>
-                                    <span>Documenter mes projets</span>
-                                </div>
-                                <div class="app-item">
-                                    <i class="uil uil-lightbulb"></i>
-                                    <span>Trouver de nouvelles solutions</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="veille-conclusion">
-                            <h2>✅ Conclusion</h2>
-                            <p>L'IA transforme le développement web en apportant gain de temps, assistance et
-                                innovation. Pour un
-                                développeur SLAM, maîtriser ces outils est un atout majeur pour travailler efficacement
-                                sur des
-                                projets complexes. La vigilance reste nécessaire : il faut comprendre le code généré et
-                                ne pas se
-                                reposer uniquement sur l'IA.</p>
+                        <div class="veille-info-card">
+                            <div class="icon-wrapper"><i class="uil uil-search"></i></div>
+                            <h3>Ma méthode de recherche</h3>
+                            <p>Pour garder un regard objectif et toujours à jour, je croise différentes sources au quotidien : les documentations officielles (OpenAI, GitHub), les retours d'expérience sur des forums comme StackOverflow, ainsi que la presse spécialisée (Le Monde Informatique, ZDNet).</p>
                         </div>
                     </div>
+
+                    <div class="veille-news-section">
+                        <h2><i class="uil uil-newspaper"></i> Dernières analyses et actualités</h2>
+                        
+                        <div class="news-grid">
+                            <div class="news-card">
+                                <div class="news-date">Février 2026</div>
+                                <h4>L'évolution de GitHub Copilot dans nos IDE</h4>
+                                <p>J'ai récemment suivi avec attention l'intégration des nouveaux modèles dans Copilot. C'est fascinant d'observer comment l'outil ne se contente plus de compléter des lignes, mais anticipe désormais la logique complète de composants React ou TailwindCSS.</p>
+                                <a href="https://github.blog/" target="_blank" class="read-more">Source de l'article <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                            
+                            <div class="news-card">
+                                <div class="news-date">Février 2026</div>
+                                <h4>L'IA native : la fin des recherches externes ?</h4>
+                                <p>Une tendance forte que j'ai identifiée lors de mes recherches : l'IA fusionne directement avec nos éditeurs de code (comme VS Code). Cela bouleverse complètement notre approche du débogage, rendant l'analyse des erreurs beaucoup plus intuitive.</p>
+                                <a href="https://openai.com/blog" target="_blank" class="read-more">Source de l'article <i class="uil uil-arrow-right"></i></a>
+                            </div>
+
+                            <div class="news-card">
+                                <div class="news-date">Janvier 2026</div>
+                                <h4>Sécurité : le danger de la confiance aveugle</h4>
+                                <p>C'est un point d'alerte majeur dans ma veille. Plusieurs rapports soulignent que le code généré par l'IA peut introduire des vulnérabilités critiques s'il n'est pas rigoureusement audité et compris par un développeur humain avant le déploiement.</p>
+                                <a href="https://www.lemondeinformatique.fr/" target="_blank" class="read-more">Source de l'article <i class="uil uil-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="veille-conclusion" style="margin-top: 60px;">
+                        <h2>✅ Mon analyse personnelle</h2>
+                        <p>Au fil de mes recherches et de ma formation en <strong>BTS SIO option SLAM</strong>, j'ai pris conscience d'une chose essentielle : l'IA est un excellent assistant, mais elle ne remplace en aucun cas la logique algorithmique humaine. Aujourd'hui, j'intègre ces outils dans mon flux de travail pour automatiser les tâches répétitives (comme la structure de base d'une page HTML/CSS), ce qui me permet de me concentrer pleinement sur l'architecture complexe et la sécurité de mes applications.</p>
+                    </div>
+
                 </div>
             </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Shukdeb Bhowmik</h3>
+                    <p>Étudiant en BTS SIO option SLAM<br>Passionné par le développement web et les nouvelles technologies</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html#home">Accueil</a>
+                    <a href="index.html#apropos">À propos</a>
+                    <a href="index.html#formation">BTS SIO</a>
+                    <a href="index.html#parcours">Parcours</a>
+                    <a href="index.html#competences">Compétences</a>
+                    <a href="index.html#projets">Projets</a>
+                    <a href="veille.html">Veille</a>
+                    <a href="index.html#contact">Contact</a>
+                </div>
+                <div class="footer-contact">
+                    <p>shukdebbhowmik14@gmail.com</p>
+                    <p>+33 6 44 05 26 63</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Bhowmikshukdeb" target="_blank"><i class="uil uil-github-alt"></i></a>
+                        <a href="https://www.linkedin.com/in/shukdeb-bhowmik-b57899201/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shukdeb Bhowmik . Tous droits réservés.</p>
+            </div>
+        </footer>
     </div>
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-            <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

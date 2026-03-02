@@ -61,7 +61,7 @@ sr.reveal(".veille-container", { delay: 100 });
 sr.reveal(".contact-container", { delay: 100 });
 
 // Active Link Navigation
-const sections = document.querySelectorAll(".section[id]");
+const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
     const scrollY = window.scrollY;

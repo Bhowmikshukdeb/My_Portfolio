@@ -1,3 +1,44 @@
+// === GOOGLE ALERTS RSS FEED ===
+document.addEventListener("DOMContentLoaded", function() {
+    const container = document.getElementById('rss-content');
+    
+    // Stop execution if the container is not found on the page
+    if (!container) return;
+
+    // Your Google Alerts RSS Link
+    const rssUrl = "https://www.google.com/alerts/feeds/02438050884287570048/11796535373541309642";
+    
+    // API to convert RSS to JSON format
+    const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+
+    // Fetch data from the API
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            if(data.items && data.items.length > 0) {
+                container.innerHTML = ''; 
+                const items = data.items.slice(0, 5); 
+                
+                items.forEach(item => {
+                    const date = new Date(item.pubDate).toLocaleDateString('fr-FR');
+                    const html = `
+                        <div class="rss-item">
+                            <a href="${item.link}" target="_blank">${item.title}</a>
+                            <div class="rss-date">📅 Publié le : ${date}</div>
+                        </div>
+                    `;
+                    container.innerHTML += html;
+                });
+            } else {
+                container.innerHTML = "<p>Aucune actualité trouvée pour le moment.</p>";
+            }
+        })
+        .catch(error => {
+            container.innerHTML = "<p style='color:red;'>Erreur lors du chargement des actualités.</p>";
+        });
+});
+// ====================================================================
+
 // Menu Mobile Function
 function myMenuFunction() {
     var menuBtn = document.getElementById("myNavmenu");
@@ -101,6 +142,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+
  // Form Submission Handling
 /* document.querySelector('.contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -146,4 +189,3 @@ competenceCategories.forEach(category => {
     competencesObserver.observe(category);
 });
 
-console.log('Portfolio BTS SIO chargé avec succès! 🚀');
